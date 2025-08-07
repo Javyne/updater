@@ -1,0 +1,355 @@
+[18:14:24 INF PalCalc.UI.App] Pal Calc version v1.16.3
+[18:14:24 INF PalCalc.Model.PalDB] Loading embedded pal DB
+[18:14:24 INF PalCalc.Model.PalDB] Successfully loaded embedded pal DB in 219ms
+[18:14:24 INF PalCalc.Model.PalBreedingDB] Loading embedded breeding DB
+[18:14:24 INF PalCalc.SaveReader.DirectSavesLocation] listing all local saves from known file locations
+[18:14:24 INF PalCalc.SaveReader.DirectSavesLocation] checking for save game folders in C:\Users\Javier\AppData\Local/Pal/Saved/SaveGames
+[18:14:25 INF PalCalc.SaveReader.SaveFile.Xbox.XboxWgsFolder] Unable to find Xbox save data package, skipping
+[18:14:25 INF PalCalc.UI.ViewModel.MainWindowViewModel] Loading save metadata took 168ms
+[18:14:26 INF PalCalc.Model.PalBreedingDB] Successfully loaded embedded breeding DB in 1832ms
+[18:29:14 INF PalCalc.UI.App] Pal Calc version v1.16.3
+[18:29:14 INF PalCalc.Model.PalDB] Loading embedded pal DB
+[18:29:14 INF PalCalc.Model.PalDB] Successfully loaded embedded pal DB in 133ms
+[18:29:14 INF PalCalc.Model.PalBreedingDB] Loading embedded breeding DB
+[18:29:14 INF PalCalc.SaveReader.DirectSavesLocation] listing all local saves from known file locations
+[18:29:14 INF PalCalc.SaveReader.DirectSavesLocation] checking for save game folders in C:\Users\Javier\AppData\Local/Pal/Saved/SaveGames
+[18:29:14 INF PalCalc.SaveReader.SaveFile.Xbox.XboxWgsFolder] Unable to find Xbox save data package, skipping
+[18:29:14 WRN PalCalc.UI.ViewModel.Mapped.SaveGameViewModel] error when loading LevelMeta for Downloads-DCB3EBFBDA10446497796898B30BD3CB
+System.IO.EndOfStreamException: Unable to read beyond the end of the stream.
+   at System.IO.BinaryReader.InternalRead(Span`1 buffer)
+   at System.IO.BinaryReader.ReadInt32()
+   at PalCalc.SaveReader.CompressedSAVHeader.Read(Stream stream) in D:\a\palcalc\palcalc\PalCalc.SaveReader\CompressedSAV.cs:line 78
+   at PalCalc.SaveReader.CompressedSAV.WithDecompressedSave(Stream inputStream, Action`1 action) in D:\a\palcalc\palcalc\PalCalc.SaveReader\CompressedSAV.cs:line 172
+   at PalCalc.SaveReader.CompressedSAV.WithDecompressedSave(IFileSource fileSource, Action`1 action) in D:\a\palcalc\palcalc\PalCalc.SaveReader\CompressedSAV.cs:line 166
+   at PalCalc.SaveReader.SaveFile.ISaveFile.VisitGvas(IVisitor[] visitors) in D:\a\palcalc\palcalc\PalCalc.SaveReader\SaveFile\ISaveFile.cs:line 25
+   at PalCalc.SaveReader.SaveFile.LevelMetaSaveFile.ReadGameOptions() in D:\a\palcalc\palcalc\PalCalc.SaveReader\SaveFile\LevelMetaSaveFile.cs:line 36
+   at PalCalc.UI.ViewModel.Mapped.SaveGameViewModel.ReadSaveDescription()
+[18:29:14 INF PalCalc.UI.ViewModel.MainWindowViewModel] Loading save metadata took 84ms
+[18:29:15 INF PalCalc.Model.PalBreedingDB] Successfully loaded embedded breeding DB in 1487ms
+[18:29:30 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaBoss001', skipping
+[18:29:30 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaBoss001', skipping
+[18:29:30 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaBoss001', skipping
+[18:29:30 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaBoss001', skipping
+[18:29:30 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaBoss001', skipping
+[18:29:30 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaBoss001_Small', skipping
+[18:29:30 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaBoss001_Small', skipping
+[18:29:30 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaBoss001_Small', skipping
+[18:29:30 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaBoss001_Small', skipping
+[18:29:30 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaBoss001_Small', skipping
+[18:29:30 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaBoss001_Small', skipping
+[18:29:30 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaBoss001_Small', skipping
+[18:29:30 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaBoss001_Small', skipping
+[18:29:30 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster001', skipping
+[18:29:30 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster001', skipping
+[18:29:30 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster001', skipping
+[18:29:30 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster001', skipping
+[18:29:30 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster001', skipping
+[18:29:30 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster001', skipping
+[18:29:30 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster001', skipping
+[18:29:30 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster001', skipping
+[18:29:30 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster001_Blue', skipping
+[18:29:30 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster001_Blue', skipping
+[18:29:30 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster001_Blue', skipping
+[18:29:30 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster001_Blue', skipping
+[18:29:30 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster001_Blue', skipping
+[18:29:30 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster001_Blue', skipping
+[18:29:30 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster001_Pink', skipping
+[18:29:30 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster001_Purple', skipping
+[18:29:30 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster001_Rainbow', skipping
+[18:29:30 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster001_Rainbow', skipping
+[18:29:30 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster001_Rainbow', skipping
+[18:29:30 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster001_Red', skipping
+[18:29:30 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster002', skipping
+[18:29:30 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster002', skipping
+[18:29:30 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster002', skipping
+[18:29:30 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster003', skipping
+[18:29:30 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster003_Purple', skipping
+[18:29:30 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'GYM_ElecPanda_Otomo', skipping
+[18:29:30 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaBoss001', skipping
+[18:29:30 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaBoss001', skipping
+[18:29:30 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaBoss001', skipping
+[18:29:30 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaBoss001', skipping
+[18:29:30 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaBoss001', skipping
+[18:29:30 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaBoss001_Small', skipping
+[18:29:30 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaBoss001_Small', skipping
+[18:29:30 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaBoss001_Small', skipping
+[18:29:30 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaBoss001_Small', skipping
+[18:29:30 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaBoss001_Small', skipping
+[18:29:30 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaBoss001_Small', skipping
+[18:29:30 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaBoss001_Small', skipping
+[18:29:30 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaBoss001_Small', skipping
+[18:29:30 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster001', skipping
+[18:29:30 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster001', skipping
+[18:29:30 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster001', skipping
+[18:29:30 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster001', skipping
+[18:29:30 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster001', skipping
+[18:29:30 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster001', skipping
+[18:29:30 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster001', skipping
+[18:29:30 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster001', skipping
+[18:29:30 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster001_Blue', skipping
+[18:29:30 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster001_Blue', skipping
+[18:29:30 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster001_Blue', skipping
+[18:29:30 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster001_Blue', skipping
+[18:29:30 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster001_Blue', skipping
+[18:29:30 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster001_Blue', skipping
+[18:29:30 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster001_Pink', skipping
+[18:29:30 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster001_Purple', skipping
+[18:29:30 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster001_Rainbow', skipping
+[18:29:30 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster001_Rainbow', skipping
+[18:29:30 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster001_Rainbow', skipping
+[18:29:30 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster001_Red', skipping
+[18:29:30 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster002', skipping
+[18:29:30 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster002', skipping
+[18:29:30 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster002', skipping
+[18:29:30 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster003', skipping
+[18:29:30 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster003_Purple', skipping
+[18:29:30 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'GYM_ElecPanda_Otomo', skipping
+[18:29:32 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaBoss001_Small', skipping
+[18:29:32 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaBoss001_Small', skipping
+[18:29:32 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaBoss001_Small', skipping
+[18:29:32 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaBoss001_Small', skipping
+[18:29:32 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaBoss001_Small', skipping
+[18:29:32 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaBoss001_Small', skipping
+[18:29:32 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaBoss001_Small', skipping
+[18:29:32 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster001_Blue', skipping
+[18:29:32 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster001_Blue', skipping
+[18:29:32 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster001_Blue', skipping
+[18:29:32 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaBoss001_Small', skipping
+[18:29:32 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaBoss001_Small', skipping
+[18:29:32 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaBoss001_Small', skipping
+[18:29:32 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaBoss001_Small', skipping
+[18:29:32 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaBoss001_Small', skipping
+[18:29:32 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaBoss001_Small', skipping
+[18:29:32 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaBoss001_Small', skipping
+[18:29:32 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster001_Blue', skipping
+[18:29:32 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster001_Blue', skipping
+[18:29:32 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster001_Blue', skipping
+[18:29:33 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaBoss001', skipping
+[18:29:33 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaBoss001', skipping
+[18:29:33 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaBoss001', skipping
+[18:29:33 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaBoss001_Small', skipping
+[18:29:33 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaBoss001_Small', skipping
+[18:29:33 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaBoss001_Small', skipping
+[18:29:33 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaBoss001_Small', skipping
+[18:29:33 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaBoss001_Small', skipping
+[18:29:33 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaBoss001_Small', skipping
+[18:29:33 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaBoss001_Small', skipping
+[18:29:33 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster001', skipping
+[18:29:33 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster001', skipping
+[18:29:33 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster001', skipping
+[18:29:33 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster001', skipping
+[18:29:33 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster001', skipping
+[18:29:33 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster001', skipping
+[18:29:33 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster001', skipping
+[18:29:33 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster001', skipping
+[18:29:33 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster001_Blue', skipping
+[18:29:33 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster001_Blue', skipping
+[18:29:33 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster001_Blue', skipping
+[18:29:33 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster001_Blue', skipping
+[18:29:33 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster001_Blue', skipping
+[18:29:33 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster001_Blue', skipping
+[18:29:33 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster001_Blue', skipping
+[18:29:33 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster001_Blue', skipping
+[18:29:33 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster001_Blue', skipping
+[18:29:33 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster001_Blue', skipping
+[18:29:33 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster001_Blue', skipping
+[18:29:33 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster001_Blue', skipping
+[18:29:33 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster001_Pink', skipping
+[18:29:33 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster001_Pink', skipping
+[18:29:33 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster001_Pink', skipping
+[18:29:33 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster001_Pink', skipping
+[18:29:33 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster001_Pink', skipping
+[18:29:33 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster001_Pink', skipping
+[18:29:33 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster001_Pink', skipping
+[18:29:33 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster001_Pink', skipping
+[18:29:33 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster001_Purple', skipping
+[18:29:33 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster001_Purple', skipping
+[18:29:33 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster001_Purple', skipping
+[18:29:33 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster001_Purple', skipping
+[18:29:33 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster001_Rainbow', skipping
+[18:29:33 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster001_Rainbow', skipping
+[18:29:33 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster001_Rainbow', skipping
+[18:29:33 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster001_Rainbow', skipping
+[18:29:33 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster001_Rainbow', skipping
+[18:29:33 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster001_Rainbow', skipping
+[18:29:33 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster001_Rainbow', skipping
+[18:29:33 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster001_Rainbow', skipping
+[18:29:33 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster001_Rainbow', skipping
+[18:29:33 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster001_Rainbow', skipping
+[18:29:33 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster001_Rainbow', skipping
+[18:29:33 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster001_Red', skipping
+[18:29:33 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster002', skipping
+[18:29:33 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster002', skipping
+[18:29:33 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster002', skipping
+[18:29:33 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster002', skipping
+[18:29:33 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster002', skipping
+[18:29:33 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster003', skipping
+[18:29:33 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster003', skipping
+[18:29:33 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster003', skipping
+[18:29:33 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster003', skipping
+[18:29:33 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster003_Purple', skipping
+[18:29:33 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster003_Purple', skipping
+[18:29:33 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster003_Purple', skipping
+[18:29:33 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster003_Purple', skipping
+[18:29:33 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster003_Purple', skipping
+[18:29:33 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster003_Purple', skipping
+[18:29:33 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'Quest_Farmer03_PinkCat', skipping
+[18:29:33 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaBoss001', skipping
+[18:29:33 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaBoss001', skipping
+[18:29:33 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaBoss001', skipping
+[18:29:33 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaBoss001_Small', skipping
+[18:29:33 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaBoss001_Small', skipping
+[18:29:33 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaBoss001_Small', skipping
+[18:29:33 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaBoss001_Small', skipping
+[18:29:33 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaBoss001_Small', skipping
+[18:29:33 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaBoss001_Small', skipping
+[18:29:33 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaBoss001_Small', skipping
+[18:29:33 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster001', skipping
+[18:29:33 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster001', skipping
+[18:29:33 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster001', skipping
+[18:29:33 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster001', skipping
+[18:29:33 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster001', skipping
+[18:29:33 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster001', skipping
+[18:29:33 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster001', skipping
+[18:29:33 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster001', skipping
+[18:29:33 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster001_Blue', skipping
+[18:29:33 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster001_Blue', skipping
+[18:29:33 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster001_Blue', skipping
+[18:29:33 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster001_Blue', skipping
+[18:29:33 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster001_Blue', skipping
+[18:29:33 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster001_Blue', skipping
+[18:29:33 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster001_Blue', skipping
+[18:29:33 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster001_Blue', skipping
+[18:29:33 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster001_Blue', skipping
+[18:29:33 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster001_Blue', skipping
+[18:29:33 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster001_Blue', skipping
+[18:29:33 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster001_Blue', skipping
+[18:29:33 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster001_Pink', skipping
+[18:29:33 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster001_Pink', skipping
+[18:29:33 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster001_Pink', skipping
+[18:29:33 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster001_Pink', skipping
+[18:29:33 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster001_Pink', skipping
+[18:29:33 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster001_Pink', skipping
+[18:29:33 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster001_Pink', skipping
+[18:29:33 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster001_Pink', skipping
+[18:29:33 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster001_Purple', skipping
+[18:29:33 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster001_Purple', skipping
+[18:29:33 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster001_Purple', skipping
+[18:29:33 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster001_Purple', skipping
+[18:29:33 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster001_Rainbow', skipping
+[18:29:33 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster001_Rainbow', skipping
+[18:29:33 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster001_Rainbow', skipping
+[18:29:33 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster001_Rainbow', skipping
+[18:29:33 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster001_Rainbow', skipping
+[18:29:33 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster001_Rainbow', skipping
+[18:29:33 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster001_Rainbow', skipping
+[18:29:33 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster001_Rainbow', skipping
+[18:29:33 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster001_Rainbow', skipping
+[18:29:33 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster001_Rainbow', skipping
+[18:29:33 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster001_Rainbow', skipping
+[18:29:33 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster001_Red', skipping
+[18:29:33 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster002', skipping
+[18:29:33 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster002', skipping
+[18:29:33 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster002', skipping
+[18:29:33 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster002', skipping
+[18:29:33 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster002', skipping
+[18:29:33 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster003', skipping
+[18:29:33 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster003', skipping
+[18:29:33 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster003', skipping
+[18:29:33 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster003', skipping
+[18:29:33 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster003_Purple', skipping
+[18:29:33 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster003_Purple', skipping
+[18:29:33 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster003_Purple', skipping
+[18:29:33 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster003_Purple', skipping
+[18:29:33 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster003_Purple', skipping
+[18:29:33 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster003_Purple', skipping
+[18:29:33 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'Quest_Farmer03_PinkCat', skipping
+[18:29:34 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'Quest_Farmer03_PinkCat', skipping
+[18:29:34 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'Quest_Farmer03_PinkCat', skipping
+[18:29:34 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'Quest_Farmer03_SheepBall', skipping
+[18:29:34 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'Quest_Farmer03_SheepBall', skipping
+[18:29:34 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'Quest_Farmer03_SheepBall', skipping
+[18:29:34 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'Quest_Farmer03_SheepBall', skipping
+[18:29:34 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'Quest_Farmer03_SheepBall', skipping
+[18:29:34 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'Male_Soldier', skipping
+[18:29:34 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'GYM_ElecPanda_Otomo', skipping
+[18:29:34 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'GYM_ElecPanda_Otomo', skipping
+[18:29:34 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster001', skipping
+[18:29:34 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster001', skipping
+[18:29:34 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster001', skipping
+[18:29:34 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster001', skipping
+[18:29:34 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaBoss001_Small', skipping
+[18:29:34 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster001_Pink', skipping
+[18:29:34 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster001_Pink', skipping
+[18:29:34 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster003_Purple', skipping
+[18:29:34 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster001', skipping
+[18:29:34 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster002', skipping
+[18:29:34 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster001', skipping
+[18:29:34 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaMonster002', skipping
+[18:29:34 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'YakushimaBoss001', skipping
+[18:29:34 WRN PalCalc.SaveReader.SaveFile.Support.Level.GvasCharacterInstance] unrecognized pal 'Male_Soldier', skipping
+[18:31:34 WRN PalCalc.SaveReader.CompressedSAV] Error while reading F:\Proyectos\palworlBreader\Players\08CAF944000000000000000000000000.sav, retrying
+System.IO.FileNotFoundException: Could not find file 'F:\Proyectos\palworlBreader\Players\08CAF944000000000000000000000000.sav'.
+File name: 'F:\Proyectos\palworlBreader\Players\08CAF944000000000000000000000000.sav'
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at PalCalc.SaveReader.FileUtil.ReadFileNonLocking(String filePath, Int32 maxLength) in D:\a\palcalc\palcalc\PalCalc.SaveReader\FileUtil.cs:line 16
+   at PalCalc.SaveReader.CompressedSAV.WithDecompressedSave(IFileSource fileSource, Action`1 action) in D:\a\palcalc\palcalc\PalCalc.SaveReader\CompressedSAV.cs:line 139
+[18:31:34 WRN PalCalc.SaveReader.CompressedSAV] Error while reading F:\Proyectos\palworlBreader\Players\08CAF944000000000000000000000000.sav, retrying
+System.IO.FileNotFoundException: Could not find file 'F:\Proyectos\palworlBreader\Players\08CAF944000000000000000000000000.sav'.
+File name: 'F:\Proyectos\palworlBreader\Players\08CAF944000000000000000000000000.sav'
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at PalCalc.SaveReader.FileUtil.ReadFileNonLocking(String filePath, Int32 maxLength) in D:\a\palcalc\palcalc\PalCalc.SaveReader\FileUtil.cs:line 16
+   at PalCalc.SaveReader.CompressedSAV.WithDecompressedSave(IFileSource fileSource, Action`1 action) in D:\a\palcalc\palcalc\PalCalc.SaveReader\CompressedSAV.cs:line 139
+[18:31:34 FTL PalCalc.UI.App] An unhandled error occurred
+System.Exception: Exception occurred during dialog action
+ ---> System.IO.FileNotFoundException: Could not find file 'F:\Proyectos\palworlBreader\Players\08CAF944000000000000000000000000.sav'.
+File name: 'F:\Proyectos\palworlBreader\Players\08CAF944000000000000000000000000.sav'
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at PalCalc.SaveReader.FileUtil.ReadFileNonLocking(String filePath, Int32 maxLength) in D:\a\palcalc\palcalc\PalCalc.SaveReader\FileUtil.cs:line 16
+   at PalCalc.SaveReader.CompressedSAV.WithDecompressedSave(IFileSource fileSource, Action`1 action) in D:\a\palcalc\palcalc\PalCalc.SaveReader\CompressedSAV.cs:line 139
+   at PalCalc.SaveReader.SaveFile.ISaveFile.ParseGvas(Boolean preserveValues, IVisitor[] visitors) in D:\a\palcalc\palcalc\PalCalc.SaveReader\SaveFile\ISaveFile.cs:line 46
+   at PalCalc.SaveReader.SaveFile.ISaveFile.ParseGvas(IVisitor[] visitors) in D:\a\palcalc\palcalc\PalCalc.SaveReader\SaveFile\ISaveFile.cs:line 35
+   at PalCalc.SaveReader.SaveFile.PlayersSaveFile.ReadPlayerContent() in D:\a\palcalc\palcalc\PalCalc.SaveReader\SaveFile\PlayersSaveFile.cs:line 82
+   at PalCalc.SaveReader.SaveFile.LevelSaveFile.ReadCharacterData(PalDB db, GameSettings settings, List`1 playersFiles, GlobalPalStorageSaveFile gpsFile) in D:\a\palcalc\palcalc\PalCalc.SaveReader\SaveFile\LevelSaveFile.cs:line 179
+   at PalCalc.UI.Model.CachedSaveGame.<>c__DisplayClass91_0.<FromSaveGame>b__3()
+   at PalCalc.UI.View.LoadingSaveFileModal.<>c__DisplayClass2_1`1.<<ShowDialogDuring>b__1>d.MoveNext()
+   --- End of inner exception stack trace ---
+   at PalCalc.UI.View.LoadingSaveFileModal.ShowDialogDuring[T](Func`1 fn)
+   at PalCalc.UI.Model.CachedSaveGame.<>c__DisplayClass91_0.<FromSaveGame>b__1()
+   at PalCalc.UI.Model.CachedSaveGame.FromSaveGame(ISavesLocation containerLocation, ISaveGame game, PalDB db, GameSettings settings)
+   at PalCalc.UI.Model.Storage.LoadSave(ISavesLocation containerLocation, ISaveGame save, PalDB db, GameSettings settings)
+   at PalCalc.UI.Model.Storage.ReloadSave(ISavesLocation containerLocation, ISaveGame save, PalDB db, GameSettings settings)
+   at PalCalc.UI.ViewModel.Mapped.SaveGameViewModel.<>c__DisplayClass4_0.<.ctor>b__1()
+   at CommunityToolkit.Mvvm.Input.RelayCommand.Execute(Object parameter) in /_/src/CommunityToolkit.Mvvm/Input/RelayCommand.cs:line 77
+   at System.Windows.Controls.Button.OnClick()
+   at System.Windows.Controls.Primitives.ButtonBase.OnMouseLeftButtonUp(MouseButtonEventArgs e)
+   at System.Windows.RoutedEventArgs.InvokeHandler(Delegate handler, Object target)
+   at System.Windows.EventRoute.InvokeHandlersImpl(Object source, RoutedEventArgs args, Boolean reRaised)
+   at System.Windows.UIElement.ReRaiseEventAs(DependencyObject sender, RoutedEventArgs args, RoutedEvent newEvent)
+   at System.Windows.RoutedEventArgs.InvokeHandler(Delegate handler, Object target)
+   at System.Windows.EventRoute.InvokeHandlersImpl(Object source, RoutedEventArgs args, Boolean reRaised)
+   at System.Windows.UIElement.RaiseEventImpl(DependencyObject sender, RoutedEventArgs args)
+   at System.Windows.UIElement.RaiseTrustedEvent(RoutedEventArgs args)
+   at System.Windows.Input.InputManager.ProcessStagingArea()
+   at System.Windows.Interop.HwndMouseInputProvider.ReportInput(IntPtr hwnd, InputMode mode, Int32 timestamp, RawMouseActions actions, Int32 x, Int32 y, Int32 wheel)
+   at System.Windows.Interop.HwndMouseInputProvider.FilterMessage(IntPtr hwnd, WindowMessage msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   at System.Windows.Interop.HwndSource.InputFilterMessage(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   at MS.Win32.HwndWrapper.WndProc(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   at System.Windows.Threading.ExceptionWrapper.InternalRealCall(Delegate callback, Object args, Int32 numArgs)
+   at System.Windows.Threading.ExceptionWrapper.TryCatchWhen(Object source, Delegate callback, Object args, Int32 numArgs, Delegate catchHandler)
+   at System.Windows.Threading.Dispatcher.LegacyInvokeImpl(DispatcherPriority priority, TimeSpan timeout, Delegate method, Object args, Int32 numArgs)
+   at MS.Win32.HwndSubclass.SubclassWndProc(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam)
+   at MS.Win32.UnsafeNativeMethods.DispatchMessage(MSG& msg)
+   at System.Windows.Threading.Dispatcher.PushFrameImpl(DispatcherFrame frame)
+   at System.Windows.Application.RunDispatcher(Object ignore)
+   at System.Windows.Application.RunInternal(Window window)
+   at PalCalc.UI.App.Main()

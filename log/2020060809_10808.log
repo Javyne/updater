@@ -1,0 +1,8 @@
+09:59:40.845 [11036]: [WARN] [CHTTPResponseHeader] [GetModifyTime] query ContentMD5 fail, [ERROR CODE] 12150
+09:59:40.845 [11036]: [ERROR] Create idx failed. errno: 2, line:597
+09:59:43.566 [9048]: [WARN] IdxCacheFS.cpp 223 lines. FS all unfilled section are downloading.
+09:59:43.640 [7408]: [WARN] IdxCacheFS.cpp 223 lines. FS all unfilled section are downloading.
+09:59:43.648 [988]: [WARN] IdxCacheFS.cpp 223 lines. FS all unfilled section are downloading.
+09:59:43.669 [13280]: [WARN] IdxCacheFS.cpp 223 lines. FS all unfilled section are downloading.
+09:59:43.721 [3252]: [WARN] IdxCacheFS.cpp 223 lines. FS all unfilled section are downloading.
+09:59:43.865 [9784]: [WARN] in CHttpDownTaskManage::_Callback, Task already be deleted!!
